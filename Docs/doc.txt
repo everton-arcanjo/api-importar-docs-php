@@ -1,0 +1,14 @@
+Para desenvolvimento foi utilizado xampp, sem utilização do mysql.
+Dentro de Public/database está o arquivo com os registros do banco.
+Caminho para o projeto pode ser ajustado no htaccess.
+
+=======Campos
+id = identificador
+empresa = empresa do doc
+chave = chave do doc
+status = status doc
+
+======ENDPOINT
+GET    = http://localhost/flux/public/api/documento
+GET    = http://localhost/flux/public/api/documento?empresa=0060
+PUT    = http://localhost/flux/public/api/?status=validado&chave=35170501512104003006550050000340201100000015,35170501512104006006550010001594931100000010

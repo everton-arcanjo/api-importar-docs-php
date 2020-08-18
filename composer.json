@@ -1,0 +1,17 @@
+{
+    "name": "everton/fluxit",
+    "description": "api flux-it documentos",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Everton Arcanjo",
+            "email": "evertondejesus@live.com"
+        }
+    ],
+    "require": {},
+    "autoload" : {
+    "psr-4" : {
+      "App\\" : "App/"
+    }
+  }
+}
