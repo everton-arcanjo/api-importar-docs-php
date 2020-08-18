@@ -1,6 +1,8 @@
 Para desenvolvimento foi utilizado xampp, sem utilização do mysql.
 Dentro de Public/database está o arquivo com os registros do banco.
 Caminho para o projeto pode ser ajustado no htaccess.
+**Problema... não deu tempo de criar um cadastro para definir o caminho da pasta.
+Precisa acessar o controller e definir o caminho exemplo $path = 'C:\Users\Naiara\Desktop\doc_api';
 
 =======Campos
 id = identificador
