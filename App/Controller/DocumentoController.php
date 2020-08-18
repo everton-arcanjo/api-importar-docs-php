@@ -26,18 +26,11 @@ class DocumentoController{
   function readFolder($data = null){
 
     $documentoUrl = $this->documentoModel->readAllDoc();
-    var_dump($documentoUrl);exit;
+    
     $path = 'C:\Users\Naiara\Desktop\doc_api';
     if(!empty($path)){
       $path = 'C:\Users\Naiara\Desktop\doc_api';
-    }else{
-
-      var_dump('caminho não encontrado');exit;
     }
-  
-  //$diretorio = dir($path);
-
-    //$dados_arquivo = array();
     
     foreach(glob($path."\*.txt") as $file){
 
