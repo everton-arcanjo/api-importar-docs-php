@@ -48,8 +48,8 @@ class DocumentoModel{
     $result = "Não encontrado";
 
     for($i = 0; $i < count($this->listDocumento); $i++){
-
-      if($this->listDocumento[$i]->getChave() == $documento->getChave()){
+      
+      if(trim($this->listDocumento[$i]->getChave()) == $documento->getChave()){
 
         $documento->setId($this->listDocumento[$i]->getId());
         $documento->setEmpresa($this->listDocumento[$i]->getEmpresa());
